@@ -41,7 +41,7 @@ public class EncodeTest {
 
     @Test
     public void newEncode_encrypt_testLetterCase_NbNb() {
-        Encode testEncode = new Encode("NbNb", "MaMa", 1);
+        Encode testEncode = new Encode("MaMa", "NbNb", 1);
         assertEquals("MaMa", testEncode.getEncryptedText());
     }
 }

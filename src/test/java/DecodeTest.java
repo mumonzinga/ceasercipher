@@ -10,7 +10,7 @@ public class DecodeTest {
 
     @Test
     public void newDecode_getDecryptedText_pear() {
-        Decode testDecode = new Decode(1, "qfbs", "pear");
-        assertEquals("qfbs", testDecode.getDecryptedText());
+        Decode testDecode = new Decode(2, "rgct", "pear");
+        assertEquals("rgct", testDecode.getDecryptedText());
     }
 }
