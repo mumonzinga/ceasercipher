@@ -6,7 +6,7 @@ import org.junit.*;
 import static junit.framework.TestCase.assertEquals;
 
 
-class DecodeTest {
+public class DecodeTest {
 
     @Test
     public void newEncode_getDecryptedText_pear() {
