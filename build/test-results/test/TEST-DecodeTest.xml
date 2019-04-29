@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DecodeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-04-29T20:43:17" hostname="mumo-ThinkPad-X240" time="0.005">
+<testsuite name="DecodeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-04-29T20:59:01" hostname="mumo-ThinkPad-X240" time="0.006">
   <properties/>
-  <testcase name="newEncode_getDecryptedText_pear" classname="DecodeTest" time="0.005">
+  <testcase name="newEncode_getDecryptedText_pear" classname="DecodeTest" time="0.006">
     <failure message="junit.framework.ComparisonFailure: expected:&lt;[qfbs]&gt; but was:&lt;[pear]&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;[qfbs]&gt; but was:&lt;[pear]&gt;
 	at junit.framework.Assert.assertEquals(Assert.java:100)
 	at junit.framework.Assert.assertEquals(Assert.java:107)

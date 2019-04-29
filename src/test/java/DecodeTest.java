@@ -9,8 +9,8 @@ import static junit.framework.TestCase.assertEquals;
 public class DecodeTest {
 
     @Test
-    public void newEncode_getDecryptedText_pear() {
-        Encode testEncode = new Encode("qfbs", "pear", 1);
-        assertEquals("qfbs", testEncode.getDecryptedText());
+    public void newDecode_getDecryptedText_pear() {
+        Decode testDecode = new Decode(1, "qfbs", "pear");
+        assertEquals("qfbs", testDecode.getDecryptedText());
     }
 }
