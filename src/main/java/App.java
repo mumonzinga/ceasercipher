@@ -41,7 +41,7 @@ public class App {
             String encodedText = myScanner.nextLine();
             System.out.println("Enter your approved shift key");
             int key = myScanner.nextInt();
-            Encode  ceaser = new Encode(2, "qfbs", "pear", 2);
+            Encode  ceaser = new Encode("qfbs", "pear", 2);
 
             String encodedScript = ceaser.encrypt (encodedText, key);
 
