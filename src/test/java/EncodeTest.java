@@ -17,7 +17,7 @@ public class EncodeTest {
 
     @Test
     public void newEncode_getEncryptedText_qfbs() {
-        Encode testEncode = new Encode(1, "qfbs", "pear", 1);
+        Encode testEncode = new Encode( "qfbs", "pear", 1);
         assertEquals("pear", testEncode.getEncryptedText());
     }
 
