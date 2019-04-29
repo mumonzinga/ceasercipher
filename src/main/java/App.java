@@ -1,9 +1,16 @@
 
 import java.lang.*;
-
 import java.util.Scanner;
 import java.lang.String;
 
+import org.junit.*;
+import static org.junit.Assert.*;
+
+
+
+import org.junit.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 
@@ -34,7 +41,9 @@ public class App {
             String encodedText = myScanner.nextLine();
             System.out.println("Enter your approved shift key");
             int key = myScanner.nextInt();
-            String encodedScript = (encrypt(encodedText, key));
+            Encode  ceaser = new Encode(2, "qfbs", "pear", 2);
+
+            String encodedScript = ceaser.encrypt (encodedText, key);
 
             System.out.println("Here is your Encrypted(<em>encoded</em> script");
             System.out.println(encodedScript);
@@ -45,8 +54,8 @@ public class App {
             String decodedText = myScanner.nextLine();
             System.out.println("Enter your approved shift key");
             int key = myScanner.nextInt();
-            main.java.Ceaser.Decode  cipher = new  Decode();
-            String decodedScript = cipher.decrypt(String, String, int);
+            Decode  cipher = new  Decode(2, "qfbs", "pear");
+            String decodedScript = cipher.decrypt(decodedText, key);
             System.out.println("Here is your Decrypted(<em>decoded</em> script");
             System.out.println(decodedScript);
             System.out.println("-------------------------------------------");
