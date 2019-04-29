@@ -28,8 +28,8 @@ public class App {
         );
         System.out.println(" ");
         System.out.println("\n" +
-                "<h1><strong> የእኔ ቄሣር ሳይፈር ትግበራ አቀባበል </strong></h1> \n" +
-                "<h3><em>welcome to my ceaser cipher application</em></h3> \n" +
+                " የእኔ ቄሣር ሳይፈር ትግበራ አቀባበል  \n" +
+                "welcome to my ceaser cipher application \n" +
                 "~amharic~ \n");
 
         System.out.println(" ");
@@ -45,7 +45,7 @@ public class App {
 
             String encodedScript = ceaser.encrypt (encodedText, key);
 
-            System.out.println("Here is your Encrypted(<em>encoded</em> script");
+            System.out.println("Here is your Encrypted/encoded script");
             System.out.println(encodedScript);
             System.out.println("-------------------------------------------");
 
@@ -56,7 +56,7 @@ public class App {
             int key = myScanner.nextInt();
             Decode  cipher = new  Decode(2, "qfbs", "pear");
             String decodedScript = cipher.decrypt(decodedText, key);
-            System.out.println("Here is your Decrypted(<em>decoded</em> script");
+            System.out.println("Here is your Decrypted/decoded script");
             System.out.println(decodedScript);
             System.out.println("-------------------------------------------");
 
