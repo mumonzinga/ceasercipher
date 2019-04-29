@@ -24,7 +24,7 @@ This application allows users to do the following:
 2.Clone the project into your machine from https://github.com/mumonzinga/ceasercipher.git
 
 3.Run javac ceasercipher.java to compile and java ceasercipher to run the program
-```
+
 ## Technologies Used
 
 -JDK
