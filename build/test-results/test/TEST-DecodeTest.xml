@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DecodeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-04-29T21:22:49" hostname="mumo-ThinkPad-X240" time="0.004">
+<testsuite name="DecodeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-04-29T21:24:40" hostname="mumo-ThinkPad-X240" time="0.005">
   <properties/>
-  <testcase name="newDecode_getDecryptedText_pear" classname="DecodeTest" time="0.004">
+  <testcase name="newDecode_getDecryptedText_pear" classname="DecodeTest" time="0.005">
     <failure message="junit.framework.ComparisonFailure: expected:&lt;[rgct]&gt; but was:&lt;[pear]&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;[rgct]&gt; but was:&lt;[pear]&gt;
 	at junit.framework.Assert.assertEquals(Assert.java:100)
 	at junit.framework.Assert.assertEquals(Assert.java:107)
