@@ -7,7 +7,7 @@ public class Encode {
     private String decodedText;
     private int index;
 
-    public  Encode (int key, String encryptedText, String decryptedText, int latchkey) {
+    public  Encode ( String encryptedText, String decryptedText, int latchkey) {
         encodedText =  encryptedText;
         decodedText = decryptedText;
         index = latchkey;

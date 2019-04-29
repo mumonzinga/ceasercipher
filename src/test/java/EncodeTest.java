@@ -11,7 +11,7 @@ public class EncodeTest {
 
     @Test
     public void newEncode_encrypt_testLetterEncryption_I_encryptsCorrectly() {
-        Encode testEncode = new Encode(1, "I", "H", 1);
+        Encode testEncode = new Encode("H", "I",  1);
         assertEquals("H", testEncode.encrypt("H", 1));
     }
 
