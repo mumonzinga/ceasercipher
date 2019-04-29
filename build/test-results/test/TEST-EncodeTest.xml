@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EncodeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-04-29T21:31:25" hostname="mumo-ThinkPad-X240" time="0.037">
+<testsuite name="EncodeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-04-29T21:32:55" hostname="mumo-ThinkPad-X240" time="0.035">
   <properties/>
-  <testcase name="newEncode_getEncryptedText_qfbs" classname="EncodeTest" time="0.001"/>
+  <testcase name="newEncode_getEncryptedText_qfbs" classname="EncodeTest" time="0.0"/>
   <testcase name="newEncode_encrypt_testSentenceEncryption_QEBNRFZHYOLTKCLUGRJMPLSBOQEBIXWVALD" classname="EncodeTest" time="0.0"/>
   <testcase name="newEncode_encrypt_testLetterCase_NbNb" classname="EncodeTest" time="0.001"/>
   <testcase name="newEncode_getLatchkey_2" classname="EncodeTest" time="0.0"/>
-  <testcase name="newEncode_encrypt_testLetterEncryption_H" classname="EncodeTest" time="0.034"/>
+  <testcase name="newEncode_encrypt_testLetterEncryption_H" classname="EncodeTest" time="0.032"/>
   <testcase name="newEncode_encrypt_testOtherCharacterEncryption_bcd25" classname="EncodeTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

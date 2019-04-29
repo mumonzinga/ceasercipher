@@ -11,6 +11,6 @@ public class DecodeTest {
     @Test
     public void newDecode_getDecryptedText_pear() {
         Decode testDecode = new Decode(2, "rgct", "pear");
-        assertEquals("rgct", testDecode.getDecryptedText());
+        assertEquals("pear", testDecode.getDecryptedText());
     }
 }
