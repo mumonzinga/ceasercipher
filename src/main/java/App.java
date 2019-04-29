@@ -1,10 +1,10 @@
-package main.java.Ceaser;
+
 import java.lang.*;
 
 import java.util.Scanner;
-import static main.java.Ceaser.Encode.encrypt;
+import java.lang.String;
 
-import static main.java.Ceaser.Decode.decrypt;
+
 
 
 
@@ -45,8 +45,8 @@ public class App {
             String decodedText = myScanner.nextLine();
             System.out.println("Enter your approved shift key");
             int key = myScanner.nextInt();
-            main.java.Ceaser.Decode  cipher = new  main.java.Ceaser.Decode();
-            String decodedScript = cipher.decrypt(decodedText, key);
+            main.java.Ceaser.Decode  cipher = new  Decode();
+            String decodedScript = cipher.decrypt(String, String, int);
             System.out.println("Here is your Decrypted(<em>decoded</em> script");
             System.out.println(decodedScript);
             System.out.println("-------------------------------------------");
