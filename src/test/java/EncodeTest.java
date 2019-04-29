@@ -7,7 +7,7 @@ import static junit.framework.TestCase.assertEquals;
 import org.junit.Test;
 
 
-class EncodeTest {
+public class EncodeTest {
 
     @Test
     public void newEncode_encrypt_testLetterEncryption_I_encryptsCorrectly() {
