@@ -22,14 +22,8 @@ public class EncodeTest {
     }
 
     @Test
-    public void newEncode_getDecryptedText_pear() {
-        Encode testEncode = new Encode(1, "qfbs", "pear", 1);
-        assertEquals("qfbs", testEncode.getDecryptedText());
-    }
-
-    @Test
     public void newEncode_getLatchkey_2() {
-        Encode testEncode = new Encode(2, "rgct", "pear", 2);
+        Encode testEncode = new Encode("rgct", "pear",  2);
         assertEquals(2, testEncode.getLatchkey());
     }
 
