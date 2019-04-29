@@ -29,7 +29,7 @@ public class EncodeTest {
 
     @Test
     public void newEncode_encrypt_testSentenceEncryption_QEBNRFZHYOLTKCLUGRJMPLSBOQEBIXWVALD() {
-        Encode testEncode = new Encode(0, "QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD", "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 23);
+        Encode testEncode = new Encode("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD", "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 23);
         assertEquals("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", testEncode.getEncryptedText());
     }
 
