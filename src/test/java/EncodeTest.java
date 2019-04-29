@@ -35,7 +35,7 @@ public class EncodeTest {
 
     @Test
     public void newEncode_encrypt_testOtherCharacterEncryption_bcd25() {
-        Encode testEncode = new Encode(0, "bcd25!", "abc25!", 1);
+        Encode testEncode = new Encode("bcd25!", "abc25!", 1);
         assertEquals("abc25!", testEncode.getEncryptedText());
     }
 
