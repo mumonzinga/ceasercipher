@@ -1,9 +1,11 @@
 
-import org.junit.*;
+import org.junit.Assert;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+import static junit.framework.TestCase.assertEquals;
+import org.junit.Test;
+
 
 class EncodeTest {
 

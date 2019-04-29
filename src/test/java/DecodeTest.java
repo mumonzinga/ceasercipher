@@ -1,9 +1,10 @@
-package main.java.Ceaser;
+
 import org.junit.*;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+import static junit.framework.TestCase.assertEquals;
+
 
 class DecodeTest {
 
