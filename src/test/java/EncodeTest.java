@@ -10,9 +10,9 @@ import org.junit.Test;
 public class EncodeTest {
 
     @Test
-    public void newEncode_encrypt_testLetterEncryption_H_encryptsCorrectly() {
+    public void newEncode_encrypt_testLetterEncryption_H() {
         Encode testEncode = new Encode("H", "I",  1);
-        assertEquals("H", testEncode.encrypt("H", 1));
+        assertEquals("I", testEncode.encrypt("H", 1));
     }
 
     @Test
