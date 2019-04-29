@@ -65,7 +65,7 @@ public class App {
             System.exit(0);
 
         } else {
-            System.out.println("invalid request, please choose encrypt or decrypt");
+            System.out.println("Invalid request, please choose encrypt or decrypt");
 
 
         }
