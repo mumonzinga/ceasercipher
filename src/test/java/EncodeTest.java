@@ -10,7 +10,7 @@ import org.junit.Test;
 public class EncodeTest {
 
     @Test
-    public void newEncode_encrypt_testLetterEncryption_I_encryptsCorrectly() {
+    public void newEncode_encrypt_testLetterEncryption_H_encryptsCorrectly() {
         Encode testEncode = new Encode("H", "I",  1);
         assertEquals("H", testEncode.encrypt("H", 1));
     }
@@ -35,8 +35,8 @@ public class EncodeTest {
 
     @Test
     public void newEncode_encrypt_testOtherCharacterEncryption_bcd25() {
-        Encode testEncode = new Encode("bcd25!", "abc25!", 1);
-        assertEquals("abc25!", testEncode.getEncryptedText());
+        Encode testEncode = new Encode("abc25", "bcd25", 1);
+        assertEquals("abc25", testEncode.getEncryptedText());
     }
 
     @Test
